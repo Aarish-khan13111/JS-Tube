@@ -3,7 +3,7 @@ class User {
     this.name = name;
     this.email = email;
   }
-  courseList = [];
+  #courseList = [];
 
   getinfo() {
     return { name: this.name, email: this.email };
